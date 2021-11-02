@@ -5,7 +5,7 @@ stages
 stage ('Pull'){
 steps {
 script {
-checkout([$class: 'GitSCM', branches: [[name: '*/master]], userRemoteConfigs: [[ credentialsId:'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', url:'https://github.com/mahmoudnouri07/Continious-Delivery.git']]])
+checkout([$class: 'GitSCM', branches: [[name: '*/master]], userRemoteConfigs: [[ credentialsId:'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', url:'https://github.com/mahmoudnouri07/Continious-Delivery.git']]])
     }  
    }
   }  
